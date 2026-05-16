@@ -63,7 +63,7 @@ export const Intro = () => {
       >
         Hi I&#39;m a{' '}
         <span className="bg-gradient-to-r from-blue-700 to-pink-600 bg-clip-text text-transparent">
-          Frontend 
+          Frontend
         </span>{' '}
         <span className="bg-gradient-to-r from-red-700 to-pink-600 bg-clip-text text-transparent">
           & Backend
@@ -78,10 +78,12 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        A fullstack developer based in the <span className="bg-gradient-to-r from-green-700 to-pink-400 bg-clip-text text-transparent">
+        A fullstack developer based in the{' '}
+        <span className="bg-gradient-to-r from-green-700 to-pink-400 bg-clip-text text-transparent">
           ETHIOPIA
-        </span>{' '}. I&#39;m passionate about
-        building modern web applications using Next.js, React, and Tailwind CSS.
+        </span>{' '}
+        . I&#39;m passionate about building modern web applications using
+        Next.js, React, and Tailwind CSS.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}

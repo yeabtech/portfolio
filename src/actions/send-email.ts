@@ -8,7 +8,8 @@ import { TFormSchema } from '@/lib/form-schema';
 export const sendEmailAction = async ({ email, message }: TFormSchema) => {
   if (!env.RESEND_API_KEY) {
     return {
-      error: 'Email service is not configured. Add RESEND_API_KEY to enable contact form emails.',
+      error:
+        'Email service is not configured. Add RESEND_API_KEY to enable contact form emails.',
     };
   }
 

@@ -21,12 +21,12 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          I&apos;m yeabsira genene, I&apos;m a fullstack developer from Ethiopia.
-          I&apos;ve been learning programming for over 5 years. After I started
-          high school, I decided to pursue my passion for programming. My
-          favorite part of programming is the problem-solving aspect. I love the
-          feeling of finally figuring out a solution to a problem. I&apos;ve had
-          the opportunity to work on several exciting projects during my
+          I&apos;m yeabsira genene, I&apos;m a fullstack developer from
+          Ethiopia. I&apos;ve been learning programming for over 5 years. After
+          I started high school, I decided to pursue my passion for programming.
+          My favorite part of programming is the problem-solving aspect. I love
+          the feeling of finally figuring out a solution to a problem. I&apos;ve
+          had the opportunity to work on several exciting projects during my
           learning journey, ranging from personal projects to collaborative
           ventures. My core stack is React, Next.js, TypeScript, and Tailwind
           CSS. I am also familiar with Nest.js and Prisma. I&apos;m always

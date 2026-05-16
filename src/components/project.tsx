@@ -61,14 +61,14 @@ export const Project = ({ project, index }: TProps) => {
         <Link
           href={links.github}
           target="_blank"
-          className="rounded border px-3 py-1 text-sm hover:bg-muted"
+          className="hover:bg-muted rounded border px-3 py-1 text-sm"
         >
           GitHub
         </Link>
         <Link
           href={links.preview}
           target="_blank"
-          className="rounded border px-3 py-1 text-sm hover:bg-muted"
+          className="hover:bg-muted rounded border px-3 py-1 text-sm"
         >
           Live
         </Link>

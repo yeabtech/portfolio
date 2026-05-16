@@ -45,7 +45,8 @@ export const projectsData = [
     technologies: ['Next.js', 'TypeScript', 'Prisma', 'Tailwind CSS'],
     links: {
       preview: 'https://ethio-electric-utility-management-s-one.vercel.app/',
-      github: 'https://github.com/yeabtech/Ethio-Electric-utility-management-system',
+      github:
+        'https://github.com/yeabtech/Ethio-Electric-utility-management-system',
       githubApi:
         'https://api.github.com/repos/yeabtech/Ethio-Electric-utility-management-system',
     },
@@ -75,12 +76,7 @@ export const experiencesData = [
     company: 'Back-End Development',
     description:
       'I develop robust, scalable, and secure server-side applications, handling business logic, API design, and system integration. I am experienced in building high-performance RESTful APIs and enterprise-level systems, ensuring reliability, security, and efficient data processing across applications.',
-    technologies: [
-      'Node.js (Express)',
-      'Django',
-      'Spring Boot',
-      'Laravel',
-    ],
+    technologies: ['Node.js (Express)', 'Django', 'Spring Boot', 'Laravel'],
   },
   {
     company: 'Database Experience',
