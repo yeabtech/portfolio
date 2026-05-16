@@ -28,7 +28,7 @@ export const Intro = () => {
         className="mx-auto leading-none"
       >
         <Image
-          src="/images/picn.png"
+          src="/images/pic.png"
           alt="Profile photo"
           width={480}
           height={600}
