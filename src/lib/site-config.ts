@@ -1,13 +1,13 @@
 import { env } from '@/env.mjs';
 
 export const siteConfig = {
-  title: 'yeabsira genene | Front-end developer',
+  title: 'yeabsira genene | Fullstack Developer',
   description:
-    "Hello, I'm yeabsira genene. I am front-end developer from Ethiopia. I enjoy building sites and apps. My focus is React (Next.js).",
+    "Hello, I'm yeabsira genene — a fullstack developer based in Ethiopia. I build modern web applications with Next.js, React, and Tailwind CSS.",
   keywords: [
     'yeabsira genene',
-    'Front-end developer',
-    'Poland',
+    'Fullstack developer',
+    'Ethiopia',
     'React',
     'Next.js',
     'Web development',
