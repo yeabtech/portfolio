@@ -63,6 +63,30 @@ export const projectsData = [
       githubApi: 'https://api.github.com/repos/yeabtech/mazeball2.0',
     },
   },
+  {
+    image: '/images/sima-mobile.png',
+    title: 'Sima Mobile',
+    description:
+      'A mobile marketplace for phones and accessories with detailed specs, pricing, and category browsing.',
+    technologies: ['Next.js', 'TypeScript', 'Prisma', 'Tailwind CSS'],
+    links: {
+      preview: 'https://sima-mobile.vercel.app/',
+      github: 'https://github.com/yeabtech/sima-mobile',
+      githubApi: 'https://api.github.com/repos/yeabtech/sima-mobile',
+    },
+  },
+  {
+    image: '/images/simafx.png',
+    title: 'simaFX',
+    description:
+      'XAUUSD trading indicators, Pine Script tools, and weekly gold analysis for smarter gold trading.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    links: {
+      preview: 'https://simafx.vercel.app/',
+      github: 'https://github.com/yeabtech/simaidicators',
+      githubApi: 'https://api.github.com/repos/yeabtech/simaidicators',
+    },
+  },
 ] as const;
 
 export const experiencesData = [
