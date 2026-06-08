@@ -6,12 +6,12 @@ export const env = createEnv({
     SITE_URL: z.string().url().optional(),
     VERCEL_URL: z.string().min(1).optional(),
     GOOGLE_SITE_VERIFICATION_ID: z.string().min(1).optional(),
-    RESEND_API_KEY: z.string().min(1).optional(),
+    WEB3FORMS_ACCESS_KEY: z.string().min(1).optional(),
   },
   runtimeEnv: {
     SITE_URL: process.env.SITE_URL,
     VERCEL_URL: process.env.VERCEL_URL,
     GOOGLE_SITE_VERIFICATION_ID: process.env.GOOGLE_SITE_VERIFICATION_ID,
-    RESEND_API_KEY: process.env.RESEND_API_KEY,
+    WEB3FORMS_ACCESS_KEY: process.env.WEB3FORMS_ACCESS_KEY,
   },
 });
